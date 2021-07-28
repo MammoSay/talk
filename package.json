@@ -127,7 +127,7 @@
     "metascraper-author": "^5.11.6",
     "metascraper-description": "^5.11.6",
     "metascraper-image": "^5.11.6",
-    "metascraper-title": "^5.11.6",
+    "metascraper-title": "^5.22.5",
     "mongodb": "^3.5.9",
     "mongodb-core": "^3.2.7",
     "ms": "^2.1.2",
