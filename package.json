@@ -124,7 +124,7 @@
     "long-settimeout": "^1.0.1",
     "lru-cache": "^5.1.1",
     "luxon": "^1.22.2",
-    "metascraper-author": "^5.11.6",
+    "metascraper-author": "^5.22.5",
     "metascraper-description": "^5.11.6",
     "metascraper-image": "^5.11.6",
     "metascraper-title": "^5.11.6",
