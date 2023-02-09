@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.1",
-    "@docusaurus/preset-classic": "2.0.0-beta.1",
-    "@docusaurus/theme-search-algolia": "^2.0.0-beta.1",
+    "@docusaurus/preset-classic": "2.0.0",
+    "@docusaurus/theme-search-algolia": "^2.0.0",
     "@edno/docusaurus2-graphql-doc-generator": "^1.2.2",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
@@ -35,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/types": "^2.0.0-beta.1"
+    "@docusaurus/types": "^2.0.0"
   }
 }
