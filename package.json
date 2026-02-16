@@ -60,7 +60,9 @@
     "tscheck:scripts": "tsc --project ./tsconfig.json --noEmit",
     "tscheck:server": "tsc --project ./src/tsconfig.json --noEmit",
     "tscheck": "npm-run-all --parallel tscheck:*",
-    "watch": "NODE_ENV=development ts-node --transpile-only ./scripts/watcher/bin/watcher.ts --config ./config/watcher.ts"
+    "watch": "NODE_ENV=development ts-node --transpile-only ./scripts/watcher/bin/watcher.ts --config ./config/watcher.ts",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -151,7 +153,8 @@
     "url-regex": "^5.0.0",
     "uuid": "^7.0.3",
     "verror": "^1.10.0",
-    "xregexp": "^4.3.0"
+    "xregexp": "^4.3.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -472,5 +475,6 @@
     "Chrome >= 49",
     "not OperaMini all",
     "not dead"
-  ]
+  ],
+  "snyk": true
 }
